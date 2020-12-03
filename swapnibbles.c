@@ -1,17 +1,6 @@
 // Swap nibbles in a byte
 
-#include <stdio.h>
-
-char *basecalc(int num, int base) {
-	static char buff[32];
-	char *s = &buff[31];
-	*s = '\0';
-	while(num) {
-			*(--s) = "0123456789ABCDEF"[num%base];
-			num /= base;
-	}
-	return s;
-}
+#include "utilities.h"
 
 int main(void) {
 	 int x, res;
