@@ -1,0 +1,5 @@
+(1) Find the missing number in the following series: 24, 30, - , 60, 84, 114 ?
+    Answer: 42
+    Hint: (24+6x0), (30+6x2), (42+6x3), (60+6x4), (84+6x5)...
+
+(2) 
